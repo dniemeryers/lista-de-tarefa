@@ -1,0 +1,222 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+html{
+    background-color: #152238;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    max-width: 350px;
+    margin: auto;
+    
+}
+
+.tudo{
+   
+    margin-top: 30px;
+   
+   
+    
+
+  
+}
+.conteudo{
+    padding-top: 90px;
+}
+
+
+h1{
+    color:aliceblue;
+    text-align: center;
+    margin-top: 30px;
+}
+h3{
+    margin:0;
+    width: 100%;
+    background-color:#4a9ae94f;
+    position:absolute;  
+    top:0px;  
+    text-align: center;
+    margin:auto
+    
+}
+.creator_list{
+    
+    width: 220px;
+    border-radius: 5px;
+    background-size: contain;
+    margin:auto;
+    background-color: #23395d;
+    padding: 7px;
+    
+
+}
+
+.list{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px 0 0;
+    
+}
+.input{
+    background-color: #23395d;
+    color:white;
+    width: 100%;
+    font-size: 15px;
+    padding:10px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border:none;
+    
+}
+
+
+.x{
+    width: 25px;
+    height: 100%;
+    border-radius: 0 5px 5px 0 ;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    color:white;
+    font-weight: bold;
+    border:none;
+}
+.v{
+    width: 25px;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    background-color: #33ff33;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color:white;
+    font-weight: bold;
+    border:none;
+}
+.add{
+    width: 35px;
+    background-color: #318ce7 ;
+    border-radius: 50%;
+    border:none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+.tarefas{
+   
+    background-color:#1c2e4a;
+    margin: auto;
+    overflow: auto;
+    border-radius: 5px;
+    padding:15px;
+    height: 250px;
+    width: 200px;
+    
+
+    
+    
+
+}
+.list_tarefas{
+    margin: 0;
+    padding:0;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    overflow-x:auto;
+    height: 50px;
+    background-color:#23395d;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+   
+
+}
+.div{
+    position: relative;
+    margin: 0;
+    padding:0;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    overflow-x:auto;
+    height: 40px;
+    background-color:#23395d;
+    border-radius: 5px 5px 0 0;
+    margin: 5px 5px 0px 5px;
+    padding: 5px;
+   
+    
+}
+
+.tarefas_realizadas{
+    position: relative;
+    margin: auto;
+    overflow-x:hidden;
+    padding-top: 20px;
+    flex-direction: column;
+    background-color: #ffdb58;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    height:200px;
+    width: 228px;
+    
+}
+
+.tarefa_inclusa{
+    
+    color:white;
+    padding-top: 5px;
+}
+
+.check{
+    position: absolute;
+    left: 1px;
+}
+.new_date{
+    position: absolute;
+    text-align: right;
+    font-size: 10px;
+    color:white;
+    right: 5px ;
+    top: 0px;
+}
+.new_date_termino{
+    
+    top: -10px;
+    align-items: center;
+    background-color: #1c2e4a;
+    font-size: 10px;
+    border-radius: 0 0 5px 5px;
+    color:white;
+    padding:7px 52px;
+    margin: 5px 4px 5px 5px;
+}
+
+.list_tarefas_realizadas{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    overflow:hidden;
+    height: 40px;
+    background-color:#23395d;
+    border-radius: 5px;
+    padding: 2px 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+}
