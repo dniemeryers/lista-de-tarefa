@@ -37,11 +37,10 @@ h1{
     margin-top: 30px;
 }
 h3{
-    margin:0;
-    width: 100%;
-    background-color:#4a9ae94f;
-    position:absolute;  
-    top:0px;  
+    
+   color:white;
+    margin-top: 20px;
+    
     text-align: center;
     margin:auto;
     
@@ -118,6 +117,7 @@ h3{
    
     background-color:#1c2e4a;
     margin: auto;
+    margin-bottom: 40px;
     overflow: auto;
     border-radius: 5px;
     padding:15px;
@@ -173,7 +173,7 @@ h3{
     border: 1px solid black;
     margin-bottom: 10px;
     padding-top: 20px;
-    margin-top: 20px;
+   
     height:200px;
     width: 228px;
     
@@ -236,8 +236,14 @@ h3{
     background-color: #ffdb58;
     border:none
 }
-footer{
-    padding:10px;
+.footer{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
     background-color: #318ce7;
     text-align: center;
     

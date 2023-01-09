@@ -5,9 +5,10 @@ const cadastro = document.getElementById("add");
 const tarefas = document.getElementById("tarefas")
 const input = document.getElementById("input");
 const erro =document.querySelector(".erro");
-const tarefas_realizdas = document.getElementById(" tarefas_realizdas")
+const tarefas_realizdas = document.getElementById(" tarefas_realizdas");
+const limpar_lista =document.getElementById("limpar_lista");
 
-
+limpar_lista.addEventListener ('click', () => limpar_tarefas_realizadas());
 cadastro.addEventListener('click',() => incluir_tarefas());
 
 const data = new Date();
@@ -65,6 +66,13 @@ function checar_tarefa(a,b,div){
 function remove_tarefas (list_tarefas){
     tarefas.removeChild (list_tarefas);
     
+}
+
+function limpar_tarefas_realizadas(list_tarefas){
+    while (tarefas_realizdas.firstChild) {
+        tarefas_realizdas.removeChild(tarefas_realizdas.firstChild);
+      }
+    tarefas_realizdas.removeChild(list_tarefas);
 }
 
 function limpaInput(){
