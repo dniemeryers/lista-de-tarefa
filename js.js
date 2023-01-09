@@ -51,7 +51,7 @@ function incluir_tarefas (){
 function checar_tarefa(a,b,div){
  
   tarefas_realizdas.appendChild(a,b);
-  const new_date_termino = document.createElement("label");
+  const new_date_termino = document.createElement("p");
   new_date_termino.classList.add("new_date_termino");
   new_date_termino.textContent = `Finalizado: ${data_termino.getDate()}/${data_termino.getMonth()+1}/${data_termino.getFullYear()} às ${data_termino.getHours()}:${data_termino.getMinutes()}`;
   tarefas_realizdas.appendChild(new_date_termino);
