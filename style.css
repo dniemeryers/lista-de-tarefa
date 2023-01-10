@@ -282,7 +282,8 @@ html{
     }
     .tarefas_realizadas{
         height: 365px;
-        width:250px ;
+        width: 250px;
+        margin-left: 40px;
       
         
     }
