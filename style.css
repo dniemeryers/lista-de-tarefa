@@ -240,3 +240,56 @@ h3{
 footer{
     padding:10px;
 }
+
+@media (min-width: 700px){
+*{
+    margin: 0%;
+    padding:0%;
+    }
+
+html{
+    width: 100vh;
+    margin: auto;
+}
+    body{
+       
+        max-width: 700px;
+        
+        
+       
+    }
+    .tudo{
+       
+        display: flex;
+        flex-direction:row;
+        margin-left: 40px;
+       
+    }
+    .creator_list{
+        margin:auto;
+        width: 400px;
+        
+
+    }
+    .tarefas{
+        height: 355px;
+        width: 250px;
+    }
+    .dados{
+        
+        padding-top: 18px;
+        
+    }
+    .tarefas_realizadas{
+        height: 365px;
+        width:250px ;
+      
+        
+    }
+    h3{
+        font-size: 30px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+}
