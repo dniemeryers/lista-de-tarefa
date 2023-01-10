@@ -17,19 +17,6 @@ body{
     
 }
 
-.tudo{
-   
-    margin-top: 30px;
-   
-   
-    
-
-  
-}
-.conteudo{
-    padding-top: 90px;
-}
-
 
 h1{
     color:aliceblue;
@@ -63,7 +50,7 @@ h3{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 5px 0 0;
+    padding: 2px 5px 0 0;
     
 }
 .input{
@@ -206,7 +193,7 @@ h3{
     border-radius: 0 0 5px 5px;
     color:white;
     padding:7px;
-    margin: 0 5px 5px 5px;
+    margin: -1px 5px 5px 5px;
 }
 
 .list_tarefas_realizadas{
@@ -247,4 +234,8 @@ h3{
     background-color: #318ce7;
     text-align: center;
     
+}
+
+footer{
+    padding:10px;
 }
