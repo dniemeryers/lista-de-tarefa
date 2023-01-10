@@ -286,8 +286,11 @@ html{
         width: 250px;
        
       
-        
-    }
+   }
+   .limpar_lista{
+    position: absolute;
+    right: 42px;
+   }
     h3{
         font-size: 30px;
     }
