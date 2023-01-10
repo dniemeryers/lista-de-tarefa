@@ -11,8 +11,8 @@ const limpar_lista =document.getElementById("limpar_lista");
 limpar_lista.addEventListener ('click', () => limpar_tarefas_realizadas());
 cadastro.addEventListener('click',() => incluir_tarefas());
 
-const data = new Date();
-const data_termino = new Date();
+
+
 
 
 function incluir_tarefas (){
@@ -31,6 +31,7 @@ function incluir_tarefas (){
     tarefa_inclusa.textContent = input.value;
     const new_date = document.createElement("label");
     new_date.classList.add("new_date");
+    const data = new Date();
     new_date.textContent = `${data.getDate()}/${data.getMonth()+1}/${data.getFullYear()} às ${data.getHours()}:${data.getMinutes()}`;
     const limpar = document.createElement("button");
     limpar.textContent = "x";
@@ -50,7 +51,7 @@ function incluir_tarefas (){
 
 
 function checar_tarefa(a,b,div){
- 
+  const data_termino = new Date();
   tarefas_realizdas.appendChild(a,b);
   const new_date_termino = document.createElement("p");
   new_date_termino.classList.add("new_date_termino");
