@@ -278,12 +278,13 @@ html{
     .dados{
         
         padding-top: 18px;
+        margin-left: 40px;
         
     }
     .tarefas_realizadas{
         height: 365px;
         width: 250px;
-        margin-left: 40px;
+       
       
         
     }
